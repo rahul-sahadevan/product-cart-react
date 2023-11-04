@@ -17,10 +17,11 @@
 }
 .home-cart{
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 .home-cart h2{
     cursor: pointer;
+    
 }
 
 .cart-body{
@@ -56,10 +57,22 @@ h1{
     color: white;
     font-weight: 700;
     cursor: pointer;
+    transition: scale 0.5s ease;
+}
+.btn:active{
+    transform: scale(1.02);
 }
 .home{
     text-decoration: none;
     color: white;
+    background-color: lightgreen;
+    padding: 8px;
+    border-radius: 5px;
+    transition: backgroundColor 0.5s ease;
+}
+.home:hover{
+    background-color: rgb(183, 235, 183);
+    color: black;
 }
 .checkout-div{
     width:300px;
